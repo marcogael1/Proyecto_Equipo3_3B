@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 2, 128);
+}
+header{
+    display: flex;
+    height: 70px;
+    background-color: rgba(212, 166, 13, 0.884);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: green;
+}

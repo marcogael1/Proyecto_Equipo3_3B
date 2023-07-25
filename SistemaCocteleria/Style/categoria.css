@@ -1,0 +1,56 @@
+
+.filtro-categoria {
+	display: flex;
+	justify-content: center; 
+	align-items: center; 
+	border: 1px solid #007BFF;
+	border-radius: 5px; 
+	padding: 20px; 
+	max-width: 400px; 
+	margin: 0 auto; 
+  }
+  
+  .filtro-categoria form {
+	display: flex;
+	align-items: center;
+  }
+  
+  .filtro-categoria label {
+	margin-right: 10px;
+  }
+  
+ 
+  .filtro-categoria select {
+	padding: 8px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	cursor: pointer;
+	appearance: none; 
+  }
+  
+  .filtro-categoria select:focus {
+	outline: none;
+	box-shadow: 0 0 4px #007BFF;
+  }
+  
+
+  .filtro-categoria input[type="submit"] {
+	padding: 8px 15px;
+	border: none;
+	border-radius: 5px;
+	background-color: #007BFF;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+  }
+  
+ 
+  .filtro-categoria input[type="submit"]:hover {
+	background-color: #0056b3;
+  }
+  
+  .filtro-categoria input[type="submit"]:focus {
+	transform: scale(1.05);
+  }
+  

@@ -1,0 +1,77 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+/* Estilos para cada producto */
+.producto-item {
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-foto img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+p {
+    margin: 5px 0;
+    color: #707070;
+}
+
+.precio {
+    display: block;
+    font-size: 1.2rem;
+    color: #f85151;
+    font-weight: bold;
+}
+
+.fila {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.size label {
+    font-weight: bold;
+}
+
+select {
+    padding: 5px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #f85151;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d32f2f;
+}

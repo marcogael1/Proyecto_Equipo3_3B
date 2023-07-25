@@ -1,0 +1,124 @@
+
+.form {
+    max-width: 300px;
+    margin: 40px auto; 
+    padding: 30px;
+    background-color:#ccc;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px rgba(20, 33, 211, 0.2); 
+}
+
+h2,h1{
+    font-size: 20px; 
+    color: #333;
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 5px; 
+}
+
+.img {
+    text-align: center;
+}
+
+.img img {
+    max-width: 200px;
+    height: 100px;
+}
+
+img {
+    max-width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"]
+input[type="email"]
+input[type="tel"] {
+    padding: 8px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px; 
+}
+
+a {
+    color: #333;
+}
+
+button[type="submit"] {
+    padding: 8px 16px; 
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: chartreuse;
+    text-align: center;
+    justify-content: center;
+}
+/*
+	Color fondo: #632432;
+	Color header: 246355;
+	Color borde: 0F362D;
+	Color iluminado: 369681;
+*/
+body{
+    background-color:darkseagreen;
+	font-family: Arial;
+}
+
+#main-container{
+	margin: 150px auto;
+	width: 600px;
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
